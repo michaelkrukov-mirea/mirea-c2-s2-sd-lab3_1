@@ -6,7 +6,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.kryukov.lab3_1.database.HelperFactory;
-import com.kryukov.lab3_1.database.dao.StudentDAO;
 
 import java.sql.SQLException;
 
@@ -53,7 +52,7 @@ public class RWAdapter extends RecyclerView.Adapter<RWAdapter.MyViewHolder> {
 
         holder.t1.setText(String.valueOf(student.getId()));
         holder.t3.setText(student.getFullname());
-        holder.t2.setText(student.getAdded().toLocaleString());
+        holder.t2.setText(student.getAdded().toString());
     }
 
     @Override

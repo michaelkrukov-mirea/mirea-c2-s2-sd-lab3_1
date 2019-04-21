@@ -8,8 +8,6 @@ import android.os.Bundle;
 
 import com.kryukov.lab3_1.database.HelperFactory;
 
-import java.sql.SQLException;
-
 public class ShowActivity extends AppCompatActivity {
 
     @Override
